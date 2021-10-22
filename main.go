@@ -38,7 +38,14 @@ func main() {
 	if err != nil {
 		reportError(err)
 	}
+
+	header, _ := gtk.HeaderBarNew()
+	helpButton, _ := gtk.ButtonNewWithMnemonic("⚙️")
+	header.PackStart(helpButton)
+	header.SetShowCloseButton(true)
+	window.SetTitlebar(header)
 	window.SetTitle("Heicy")
+
 	window.Connect("destroy", func() {
 		gtk.MainQuit()
 	})
