@@ -7,6 +7,7 @@ import (
 	"github.com/gotk3/gotk3/glib"
 	"github.com/gotk3/gotk3/gtk"
 	"github.com/jdeng/goheif"
+	"github.com/skratchdot/open-golang/open"
 	"image/jpeg"
 	"net/url"
 	"os"
@@ -40,8 +41,6 @@ func main() {
 	}
 
 	header, _ := gtk.HeaderBarNew()
-	helpButton, _ := gtk.ButtonNewWithMnemonic("⚙️")
-	header.PackStart(helpButton)
 	header.SetShowCloseButton(true)
 	window.SetTitlebar(header)
 	window.SetTitle("Heicy")
@@ -192,6 +191,7 @@ func convertFiles(paths []string, destination string, window *gtk.Window, bus Ev
 	progress = len(paths)
 	total = len(paths)
 	handled = false
+	open.Run(destination)
 }
 
 func lastString(ss []string) string {

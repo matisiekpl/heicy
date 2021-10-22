@@ -4,3 +4,5 @@ github.com/gotk3/gotk3 v0.6.1 h1:GJ400a0ecEEWrzjBvzBzH+pB/esEMIGdB9zPSmBdoeo=
 github.com/gotk3/gotk3 v0.6.1/go.mod h1:/hqFpkNa9T3JgNAE2fLvCdov7c5bw//FHNZrZ3Uv9/Q=
 github.com/jdeng/goheif v0.0.0-20200323230657-a0d6a8b3e68f h1:jYkcRYsnnvPF07yn4XJx3k8duM4KDw3QYB3p8bUrk80=
 github.com/jdeng/goheif v0.0.0-20200323230657-a0d6a8b3e68f/go.mod h1:G7IyA3/eR9IFmUIPdyP3c0l4ZaqEvXAk876WfaQ8plc=
+github.com/skratchdot/open-golang v0.0.0-20200116055534-eef842397966 h1:JIAuq3EEf9cgbU6AtGPK4CTG3Zf6CKMNqf0MHTggAUA=
+github.com/skratchdot/open-golang v0.0.0-20200116055534-eef842397966/go.mod h1:sUM3LWHvSMaG192sy56D9F7CNvL7jUJVXoqM1QKLnog=
