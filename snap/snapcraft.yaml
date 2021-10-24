@@ -1,0 +1,21 @@
+name: heicy
+base: core20
+version: '1.0'
+summary: HEIC photos to PNG converter
+description: You can convert HEIC photos from your Apple iPhone to PNG
+grade: devel # must be 'stable' to release into candidate/stable channels
+confinement: devmode # use 'strict' once you have the right plugs and slots
+
+parts:
+  heicy:
+    plugin: go
+    source: .
+    build-packages:
+      - libgtk-3-dev
+      - libcairo2-dev
+      - libglib2.0-dev
+
+apps:
+  heicy:
+    extensions: [gnome-3-38]
+    command: bin/heicy
