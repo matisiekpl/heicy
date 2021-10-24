@@ -116,7 +116,6 @@ func main() {
 			return true
 		}
 		handled = true
-		fmt.Printf("Progress: %d\n", progress)
 		if progress == 0 && total > 0 {
 			window.Remove(mainBox)
 			window.Add(workingLayout)
