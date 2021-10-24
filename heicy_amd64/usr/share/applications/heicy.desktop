@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=Heicy
+Comment=Convert HEIC photos to PNG
+Exec=/usr/local/bin/heicy
+Icon=heicy
+Terminal=false
+Type=Application
+Categories=Utility;Application;

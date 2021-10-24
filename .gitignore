@@ -15,3 +15,7 @@
 # vendor/
 .idea/
 *.png
+*.snap
+
+**/heicy
+*.deb

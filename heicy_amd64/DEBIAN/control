@@ -1,0 +1,5 @@
+Package: heicy
+Version: 1.0
+Architecture: amd64
+Maintainer: Mateusz Woźniak <matisiek11@gmail.com>
+Description: HEIC photos to PNG converter
